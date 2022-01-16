@@ -13,7 +13,7 @@ composer require damian972/dotenv-loader
 ```php
 require 'vendor/autoload.php';
 
-(new Dotenv(__DIR__, fileName: '.env'))->load(); // fileName parameter is optionnal, default: .env
+(new Damian972\DotenvLoader\Dotenv(__DIR__, fileName: '.env'))->load(); // fileName parameter is optionnal, default: .env
 
 echo 'API_LOGIN = '.getenv('API_LOGIN').PHP_EOL;
 ```
